@@ -1,0 +1,64 @@
+#body{
+    margin: 20px;
+}
+
+#header{
+    background-image: url('../images/flex.jpg');
+    height:100%;
+    background-size: cover;
+    color:antiquewhite;
+}
+.overlay{
+    width:auto ;
+    height:400px;
+    background-color:black;
+    opacity:0.7;
+    z-index: -4;
+}
+#div-flex{
+    display: flex;   
+}
+#div-flex>img{
+    align-items: flex-start;
+    margin: 10px;
+    z-index: 1;
+    padding: 20px;
+}
+#nav-bar{
+   display:flex;
+   align-items: flex-end;
+    margin-right:20px;
+    z-index: 2;
+}
+#nav-bar>a{
+    margin: 10px;
+    padding: 10px;
+    color: antiquewhite;
+}
+.display-3{
+    position: relative;
+    font-weight:bold ;
+    margin:10px;
+    z-index: -4;
+}
+
+.section-head{
+color: rgb(67, 67, 247) ;
+font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
