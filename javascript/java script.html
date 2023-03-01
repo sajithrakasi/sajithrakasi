@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html dam manipulation</title>
+</head>
+<body>
+    <div id="div-container">
+        welcome to javascript
+    </div>
+    <p id="para-1" ondblclick="alert('welcome!')">html changes displayed!</p>
+    <div>
+        <input type="button" value="submit" onclick="display()">
+    </div>
+    <script>
+        function change()
+        {
+        document.getElementById('para-1').style.color='red'; 
+        }
+        function display()
+        {
+        alert("button is clicked!");
+        document.getElementById('div-container').innerHTML="<h1>clicked!</h1>";
+        document.getElementById('div-container').style.backgroundColor="yellow";
+        document.getElementById('para-1').style.visibility="hidden";
+       }
+
+    </script>
+</body>
+</html>

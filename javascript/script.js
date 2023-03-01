@@ -89,21 +89,30 @@ if(f>=100)
 document.write(f);
 })
 //map
-let double_num= nums.map((n) => {
-return 2*n;
-})
-document.write("double "+double_num);
+//let double_num= nums.map((n) => {
+//return 2*n;
+//})
+//document.write("double "+double_num);
 //push
-var arr=[12,23,34,45,56];
-document.write("shift method "+arr.shift());
-arr.push(900);
-document.write("after push<br>"+arr);
-document.write("<br>after pop"+arr.pop());
+//var arr=[12,23,34,45,56];
+//document.write("shift method "+arr.shift());
+//arr.push(900);
+//document.write("after push<br>"+arr);
+//document.write("<br>after pop"+arr.pop());
+
+//let arr=[2,3,4,5,10,12,14];
+//let sq_arr = arr.map((a) =>{
+//   return a*a;
+//});
+//console.log(sq_arr);
 
 
+//let arr=[8,9,12,3,2,5]
+//let sq_arr = arr.map((a) => {
+ //   return a*a;
+//})
+//console.log(sq_arr);
 
-
-
-
-
+let arr=[8,9,12,3,2,5]
+document.write("reversed "+arr.reverse());
 
