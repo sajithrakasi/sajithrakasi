@@ -1,0 +1,55 @@
+body{
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:darkorange;
+    color: floralwhite;
+    text-align: center;
+}
+
+#cityinput{
+    height: 10%;
+    width: 20%;
+    color: blueviolet;
+    font-size: 1.15rem;
+}
+
+#btn{
+    background-color: gold;
+    color: black;
+    font-size: 1.15rem;
+    margin-left: 30px;
+}
+#input{
+    background-image: url('./spots-background-light-dark-wallpaper-preview.jpg');
+background-size: cover;
+width:80vw;
+height:40vh;
+padding: 20px;
+}
+#output{
+background-color: rgb(178, 211, 33);
+background-size: cover;
+padding: 20px;
+width: 80vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
