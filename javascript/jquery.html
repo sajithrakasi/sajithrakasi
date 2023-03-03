@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<style>
+    #div-effect{
+        width: 200px;
+        height: 100px;
+        background-color: aqua;
+    }
+    #div-effect1{
+        width: 200px;
+        height: 100px;
+        background-color: red;
+    }
+    #div-effect2{
+        width: 200px;
+        height: 100px;
+        background-color:yellow;
+    }
+</style>
+
+</head>
+<body>
+    <h1>welcome to jquery!</h1>
+<p id="p-tag"> jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.
+     With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.</p>
+
+<p id="p2">
+    you can get the script tag.
+</p>
+     <input type="button" id='btn' value="click me">
+<div id="div-effect">
+    div1
+</div><br>
+<div id="div-effect1">
+    div2
+</div>
+<div id="div-effect2">
+    div3
+</div>
+
+<script>
+   /*  function hide(){
+        document.getElementById('p-tag').style.visibility='hidden';
+        } */
+        
+       /*  $(document).ready($('#btn').click(function(){
+            $('#p2').toggle();
+        })) */
+
+        /* $(document).ready
+        ($('#div-effect').fadeOut(3000)) */
+           
+        $(document).ready
+            ($("#div-effect1").animate({width: '800px'},3000),
+                $('#div-effect').fadeOut(3000),
+                $('#div-effect2').animate({height: '500px'},3000),
+                $('#btn').click(function(){   //click is an event
+            $('#p2').toggle();                   //hide is an effect
+        }),
+        /*$('h1').mouseenter(function(){$('h1').hide()}) */
+         $('#div-effect2').append('<p>hello</p>') , 
+        $('#div-effect1').remove()
+         )
+           
+    
+
+</script>
+</body>
+</html>
